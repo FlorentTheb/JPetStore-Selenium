@@ -17,7 +17,7 @@ public class FunctionalitiesTest extends AbstractTest {
 	@Test
 	public void jPetTest() {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("http://localhost:8081/jpetstore/");
+		driver.get("http://localhost:8085/jpetstore/");
 
 		// On instancie la page index
 		PageIndex page_index = PageFactory.initElements(driver, PageIndex.class);
